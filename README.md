@@ -38,4 +38,4 @@ OpenTpCast for 6.12.25+rpt-rpi-v7 #1 SMP Raspbian
 7. Let the script install everything and reboot your device. After rebooting, try to SSH again to verify that the unit is ok. Then disconnect the LAN-to-USB adapter and reconnect the headset.
 8. Verify that VirtualHere client is able to see the headset and that SteamVR works as expected
 
-Credit: [OpenTPCast](https://github.com/OpenTPCast) and it's creator [NGenesis](https://github.com/NGenesis)
+Credit: [OpenTPCast](https://github.com/OpenTPCast)
