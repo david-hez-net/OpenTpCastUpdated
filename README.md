@@ -1,7 +1,7 @@
 # OpenTpCast Updated
 An updated script to support OpenTpCast for 6.12.25+rpt-rpi-v7 #1 SMP Raspbian <br>
 Warning! This script supports the Realtek 8821AU chip only. If you have a device with the Realtek 8821DU chip, this script will not work for you. <br>
-If you have compatible 8821DU, feel free to open an Issue or a PR and submit them. <br>
+If you have compatible Realtek 8821DU drivers that work on 6.12.25+rpt-rpi-v7, feel free to open an Issue or a PR and submit them. <br>
 
 ## Perquisites
 1. USB-to-LAN adapter [like this one](https://www.amazon.com/UGREEN-Network-Ethernet-Supports-Nintendo/dp/B00MYTSN18/ref=sr_1_11?sr=8-11)
