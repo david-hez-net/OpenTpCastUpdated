@@ -1,4 +1,4 @@
-# OpenTpCast Updated Script
+# OpenTpCast Updated
 OpenTpCast for 6.12.25+rpt-rpi-v7 #1 SMP Raspbian
 
 ## Perquisites
