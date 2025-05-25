@@ -1,5 +1,5 @@
 # OpenTpCast Updated
-OpenTpCast for 6.12.25+rpt-rpi-v7 #1 SMP Raspbian
+An updated script to support OpenTpCast for 6.12.25+rpt-rpi-v7 #1 SMP Raspbian
 
 ## Perquisites
 1. USB-to-LAN adapter [like this one](https://www.amazon.com/UGREEN-Network-Ethernet-Supports-Nintendo/dp/B00MYTSN18/ref=sr_1_11?sr=8-11)
