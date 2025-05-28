@@ -36,7 +36,7 @@ If you have compatible Realtek 8821DU drivers that work on 6.12.25+rpt-rpi-v7, f
 3. Disconnect both USB and power jack from the unit and connect the LAN-to-USB adapter to the USB port instead, connect it to your home router/switch with internet access <br>
 4. Find the IP address of your tpcast using [AngryIPScanner](https://angryip.org/) <br>
 5. Connect to your tpcast using [Putty](https://www.putty.org/) or any other SSH interface of your choice <br>
-6. After SSH'ing to your tpcast, run the following command: ```wget -O - https://raw.githubusercontent.com/david-hez-net/OpenTpCastUpdatedScript/refs/heads/main/transform_image.sh | bash```
+6. After SSH'ing to your tpcast, run the following command: ```wget -O - https://raw.githubusercontent.com/david-hez-net/OpenTpCastUpdated/refs/heads/main/transform_image.sh | bash```
 7. Let the script install everything and reboot your device. After rebooting, try to SSH again to verify that the unit is ok. Then disconnect the LAN-to-USB adapter and reconnect the headset.
 8. Verify that VirtualHere client is able to see the headset and that SteamVR works as expected
 
