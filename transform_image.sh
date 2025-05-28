@@ -25,7 +25,7 @@ rm -rf 8821au-20210708
 
 echo "INSTALLING VIRTUALHERE TPCAST EDITION SERVER"
 sudo wget -e check_certificate=off -q -O /usr/sbin/vhusbdtpcast https://www.virtualhere.com/sites/default/files/usbserver/vhusbdtpcast && sudo chmod +x /usr/sbin/vhusbdtpcast
-sudo wget -e check_certificate=off -q -O /etc/init.d/vhusbdpin https://raw.githubusercontent.com/david-hez-net/OpenTpCastUpdatedScript/refs/heads/main/vhusbdpin && sudo chmod +x /etc/init.d/vhusbdpin
+sudo wget -e check_certificate=off -q -O /etc/init.d/vhusbdpin https://raw.githubusercontent.com/david-hez-net/OpenTpCastUpdated/refs/heads/main/vhusbdpin && sudo chmod +x /etc/init.d/vhusbdpin
 sudo sed -i 's/vhusbdarm/vhusbdtpcast/g' /etc/init.d/vhusbdpin
 sudo update-rc.d vhusbdpin defaults > /dev/null 2>&1 || true
 echo -e "ServerName=TPCast\nonDeviceIgnore=return 0\nonChangeNickname=return 1\nonReset.0bb4.2c87=\nonReset.28de.2000=\nDeviceNicknames=Vive Camera,0bb4,2c87,1122\nIgnoredDevices=424/ec00,bda/8194,bda/811" | sudo tee /root/config.ini > /dev/null
